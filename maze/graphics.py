@@ -1,5 +1,6 @@
 from tkinter import Tk, BOTH, Canvas
 
+
 class Point:
     def __init__(self, x: int, y: int):
         self.x = x
@@ -7,6 +8,7 @@ class Point:
 
     def midpoint(self, point):
         return Point((self.x + point.x)//2,(self.y+ point.y)//2)
+
 
 class Line():
     def __init__(self, point1: Point, point2: Point):
